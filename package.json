@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-jsonl",
+  "name": "rollup-plugin-jsonlines",
   "version": "0.0.1",
   "publishConfig": {
     "access": "public"
@@ -8,11 +8,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petlack/rollup-plugin-jsonl"
+    "url": "git+https://github.com/petlack/rollup-plugin-jsonlines"
   },
   "author": "Peter Laca",
-  "homepage": "https://github.com/petlack/rollup-plugin-jsonl",
-  "bugs": "https://github.com/petlack/rollup-plugin-jsonl/issues",
+  "homepage": "https://github.com/petlack/rollup-plugin-jsonlines",
+  "bugs": "https://github.com/petlack/rollup-plugin-jsonlines/issues",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.js",
   "exports": {

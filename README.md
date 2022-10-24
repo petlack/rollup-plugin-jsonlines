@@ -1,4 +1,4 @@
-# rollup-plugin-jsonl
+# rollup-plugin-jsonlines
 
 🍣 A Rollup plugin which imports `.jsonl` ([JSON Lines](https://jsonlines.org/)) files as JSON arrays.
 
@@ -11,7 +11,7 @@ This plugin requires an [LTS](https://github.com/nodejs/Release) Node version (v
 Using npm:
 
 ```console
-npm install rollup-plugin-jsonl --save-dev
+npm install rollup-plugin-jsonlines --save-dev
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install rollup-plugin-jsonl --save-dev
 Create a rollup.config.js [configuration file](https://www.rollupjs.org/guide/en/#configuration-files) and import the plugin:
 
 ```js
-import jsonl from 'rollup-plugin-jsonl';
+import jsonl from 'rollup-plugin-jsonlines';
 
 export default {
   input: 'src/index.js',
@@ -40,7 +40,7 @@ _`vite.config.js`_
 ```js
 import { defineConfig } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
-import jsonl from 'rollup-plugin-jsonl';
+import jsonl from 'rollup-plugin-jsonlines';
 
 // https://vitejs.dev/config/
 export default defineConfig({
